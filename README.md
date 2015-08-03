@@ -94,7 +94,7 @@ top movies by rating.
 For `rater`, you'll want the average rating that rater gave to a movie, and
 the ability to get the top movies that rater has not seen. You will also want
 to be able to find the Euclidean distance between that rater and another using
-their movie ratings. (See [our command-line version of this](https://github.com/tiyd-python-2015-05/movie-recommendations)
+their movie ratings. (See [our command-line version of this](https://github.com/tiy-lv-python-2015-06/movie-recommendations)
 to see more.)
 
 In order to do this, you'll want to [read up on the model layer of Django](https://docs.djangoproject.com/en/1.8/#the-model-layer).
@@ -106,7 +106,7 @@ and then either look at [django-nose](https://pypi.python.org/pypi/django-nose) 
 
 ### Normal Mode
 
-Take [the script I wrote to turn MovieLens 1M data into fixtures](https://github.com/tiyd-python-2015-05/django-movies/blob/night-1/convert_ml_1m_data.py)
+Take [the script I wrote to turn MovieLens 1M data into fixtures](https://github.com/tiy-lv-python-2015-06/django-movies/blob/master/convert_ml_1m_data.py)
 and modify it to turn your CSV data into fixtures, then load those fixtures
 with `python manage.py loaddata <fixture_file>`.
 
