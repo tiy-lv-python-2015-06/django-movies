@@ -34,29 +34,27 @@ After completing this assignment, you should be able to:
 * Make use of Django's built in authentication forms and helper
 * Extend user objects via OneToOneFields
 
-## Night 4
+## Weekend
 
 * Expand upon current knowledge to build new Django applications and features
-* Determine which model field types to use to represent data
-* Understand the difference between 1:1, 1:n, and n:n relationships
-* Distinguish when to use each relationship type in modeling data
 * Translate English descriptions of data queries into Django ORM queries
-* Use PostgreSQL to store Django data
 * Use django-extensions to make development easier
-
-## Night 5
-
 * Build structured documents using HTML
 * Make use of Bootstrap and hand-written CSS to style your application
 * Organize templates for reuse
 
-## Night 6
 
+## Night 5
+* Determine which model field types to use to represent data
+* Understand the difference between 1:1, 1:n, and n:n relationships
+* Distinguish when to use each relationship type in modeling data
+* Use PostgreSQL to store Django data
 * Show the attributes of the request object in Views
 * Create custom HTTP responses
 * Use exceptions to handle common web responses
 * Explain the difference between function-based views and class-based views
 * Select generic views from Django to speed development
+
 
 ## Details
 
@@ -154,43 +152,36 @@ Add a personal page for each user that only they can see. It should have all
 their ratings, allow them to edit or delete those ratings, and also show
 them the top 20 movies they have not rated.
 
-## Night 4
+## Weekend
 
-Tonight focuses on using the Django ORM better. You have a list of changes
+This weekend focuses on polish. You have a list of changes
 to make:
 
+* Add Bootstrap and template extending to your project
 * Ensure users can rate movies.
-* Validate that new ratings are between 1 and 5.
 * Make sure new ratings are timestamped correctly.
-* Allow for a short review with the rating.
 * Add a personal page for each user that only they can see. It should have all
 their ratings and allow them to edit or delete those ratings.
+
+### No hackathon
 * Add a public page for each user that has all their ratings and their
 user info.
-* Movies should have genres, and each genre should have a page where you can
-see the top rated movies for that genre.
 * Have a page both for showing movies with the most ratings and movies with the highest ratings.
-* Convert your application to use PostgreSQL.
+* Validate that new ratings are between 1 and 5.
 
 ### Hard Mode
 
 Start to exercise your own creativity here. Add features based off what you're
 interested in.
 
-## Night 5: Catch up
-
-We have a few more features we are going to add to this application. Tonight
-is a good time to stop and make sure you have all the previous normal modes
-done.
-
-Focus on polish tonight. Add in Bootstrap and customize the CSS. Organize
-your URLs.
-
 ## Night 6
 
-Take your page that shows the top 20 (or however many) movies by average rating. Turn this into a paginated list using the generic class-based view (GCBV) `ListView`.
+* Convert your application to use PostgreSQL.
+* Movies should have genres, and each genre should have a page where you can
+see the top rated movies for that genre.
+* Convert your application to use generic class based views
+* List views should be paginated
 
-Convert the rest of your views to use GCBV's.
 
 ### Hard Mode
 
